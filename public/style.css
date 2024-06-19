@@ -1,3 +1,10 @@
+/*
+    Description : styles.css is the main css code for the whole website
+    Author : Viraj Vala
+    Version : 1.0.0
+*/
+
+
 /* font family Raleway */
 
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -5,9 +12,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
-
-/* ============= 01. Reset section ============= */
 
 
 html{
@@ -99,7 +103,6 @@ video {
     font-size: 100%;
 }
 
-/* HTML5 display-role reset for older browsers */
 
 article,
 aside,
@@ -166,7 +169,10 @@ iframe {
     width: 100%;
 }
 
-/* ===== 02. Global Style ===== */
+
+
+
+/* Main css starts */
 body {
     overflow-x: hidden;
 }
