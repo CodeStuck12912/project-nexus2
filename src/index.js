@@ -5,8 +5,8 @@ const collection = require('./config');
 const bodyParser = require('body-parser');
 const app = express();
 
-app.use(bodyParser.urlencoded({ extended: true }));  // Parse application/x-www-form-urlencoded
-app.use(bodyParser.json());  // Parse application/json
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 
 app.use(express.json());
@@ -49,7 +49,7 @@ app.post('/info', async (req, res) => {
 //     }
 // });
 
-const PORT = 8008;
+const PORT = 8007;
 app.listen(PORT, 0.0.0.0, () => {
-    console.log("Server Started! on port:", PORT, 'Network connection Slow!!');
+    console.log("Server Started! on port:", PORT);
 });
