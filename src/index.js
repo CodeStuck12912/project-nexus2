@@ -49,7 +49,7 @@ app.post('/info', async (req, res) => {
 //     }
 // });
 
-const PORT = 0.0.0.0;
-app.listen(PORT, () => {
+const PORT = 8008;
+app.listen(PORT, 0.0.0.0, () => {
     console.log("Server Started! on port:", PORT, 'Network connection Slow!!');
 });
